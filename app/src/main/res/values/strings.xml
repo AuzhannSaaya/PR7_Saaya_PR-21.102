@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MDK_7_Saaya_PR_21_102</string>
+    <string name="register">Регистрация</string>
+    <string name="help">Помощь</string>
+    <string name="enter">Вход</string>
+    <string name="enter_agree">Согласен(-а) с условиями использования и политикой конфиденциальности</string>
+    <string name="register_btn">Зарегистрироваться</string>
+
+    <string name="enter_name">Введите ваше имя</string>
+    <string name="enter_surname">Введите вашу фамилию</string>
+    <string name="enter_phone">Введите ваш контактный номер</string>
+
+    <string name="hello">приветствуем в нашем приложении</string>
+    <string name="recommendations">Предложения</string>
+    <string name="additional">Подробная информация</string>
+
+    <string name="button_people">Ваши друзья оценили</string>
+    <string name="recommends_button">На основе предпочтений</string>
+    <string name="recommends_button2">В тренде</string>
+</resources>

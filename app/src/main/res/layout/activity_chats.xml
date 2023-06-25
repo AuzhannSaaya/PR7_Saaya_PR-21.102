@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chats">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="409dp"
+                android:layout_height="729dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/fish" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew7"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Lecha"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/_21_1393" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew6"
+                        android:layout_width="177dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pizza + Pasta"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/free_icon_font_interrogation_3916693" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew5"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Аккаунт удалён"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/_620820885_15_phonoteka_org_p_memi_bez_zadnego_fona_16" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew4"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Bad Troll"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/love_game_logo_256x256" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew3"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Pretty"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/plused" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew2"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Catod"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:baselineAligned="false"
+                        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                    <Space
+                        android:layout_width="45dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView4ew"
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textAlignment="gravity"
+                        app:autoSizeTextType="uniform"
+                        app:textAllCaps="false" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
